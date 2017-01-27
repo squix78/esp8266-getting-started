@@ -7,7 +7,9 @@ void setup() {
 }
 
 void loop() {
-  // Write here to the serial console: "1. Hello world", "2. Hello world", etc
+  // Explanation: The first line just prints (print) the counter without new line
+  // The second (println) prints out Hello world and adds a new line afterwards
+  // You could also do Serial.println(String(counter) + ". Hello world"); in one line
   Serial.print(counter);
   Serial.println(". Hello world");
   
